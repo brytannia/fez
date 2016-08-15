@@ -1,0 +1,10 @@
+Description:
+    Fex provide support for one usage rake tasks. Create version file for rake tasks and a directory for them.
+
+Example:
+    rails generate fez
+
+    This will create:
+        lib/fez/version.yml
+        lib/fez/tasks
+    add lib/fez/version.yml to .gitignore
