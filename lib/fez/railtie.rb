@@ -6,7 +6,8 @@ module Fez
     railtie_name :fez
 
     rake_tasks do
-      load 'tasks/fez_tasks.rake'
+      puts 'stat'
+      load 'tasks/sweep.rake'
     end
   end
 end
