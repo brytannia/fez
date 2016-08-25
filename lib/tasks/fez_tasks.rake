@@ -1,4 +1,7 @@
-# desc "Explaining what the task does"
-# task :fez do
-#   # Task goes here
-# end
+namespace :fez do
+  desc 'Run all new fez tasks'
+  task :sweep do
+    puts 'I am a rake task'
+  end
+end
+
