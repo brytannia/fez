@@ -1,3 +1,6 @@
 module Fez
-  require 'fez/railtie' if defined?(Rails)
+  if defined?(Rails)
+  require 'fez/railtie'
+  puts 'hi I am super module Fez'
+  end
 end

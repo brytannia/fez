@@ -4,7 +4,7 @@ load 'Rakefile'
 module Fez
   class Runner
     def initialize
-      @@name ||= 1
+      @@name ||= 0
       @@name += 1
       puts "hi #{@@name}"
     end
