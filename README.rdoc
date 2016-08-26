@@ -1,3 +1,5 @@
 = Fez
 
 This project rocks and uses MIT-LICENSE.
+
+http://24.media.tumblr.com/00abbb3e6cc426505f792bdf04e16aab/tumblr_msx7vocr0x1suq2yao1_500.gif
