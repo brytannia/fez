@@ -1,4 +1,7 @@
 = Fez
+{<img src="https://codeclimate.com/github/brytannia/fez/badges/gpa.svg" />}[https://codeclimate.com/github/brytannia/fez]
+{<img src="https://codeclimate.com/github/brytannia/fez/badges/coverage.svg" />}[https://codeclimate.com/github/brytannia/fez/coverage]
+{<img src="https://codeclimate.com/github/brytannia/fez/badges/issue_count.svg" />}[https://codeclimate.com/github/brytannia/fez]
 
 This project rocks and uses MIT-LICENSE.
 
