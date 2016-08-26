@@ -1,12 +1,8 @@
-require 'rake'
-load 'Rakefile'
-
 module Fez
   class Runner
     def initialize
       @@name ||= 0
       @@name += 1
-      puts "hi #{@@name}"
     end
 
     def run
@@ -14,7 +10,6 @@ module Fez
         file = filename[/fez\/\d*_(.*?).rake/, 1]
         "fez:#{file}"
       end
-      puts tasks.size
       tasks
     end
   end

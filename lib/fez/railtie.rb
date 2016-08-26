@@ -1,12 +1,12 @@
-require 'fez'
+# require 'fez'
 require 'rails'
 
 module Fez
   class Railtie < Rails::Railtie
-    # railtie_name :fez
+    railtie_name :fez
 
-    # rake_tasks do
-    #   load 'tasks/sweep.rake'
-    # end
+    rake_tasks do
+      load 'tasks/sweep.rake'
+    end
   end
 end
