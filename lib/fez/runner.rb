@@ -1,16 +1,22 @@
 module Fez
   class Runner
+    attr_reader :version
+
     def initialize
-      @@name ||= 0
-      @@name += 1
+      @version = 1
     end
 
     def run
-      tasks = Dir["./lib/tasks/fez/*.rake"].map do |filename|
+      tasks.each do |task|
+        Rake::Task[task].invoke
+      end
+    end
+
+    def tasks
+      Dir["./lib/tasks/fez/*.rake"].map do |filename|
         file = filename[/fez\/\d*_(.*?).rake/, 1]
         "fez:#{file}"
       end
-      tasks
     end
   end
 end
