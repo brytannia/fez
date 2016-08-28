@@ -5,15 +5,23 @@
 
 Fez revolutionize the way you maintain your application's database and make the World a better place through authomatically running pending rake tasks. With help of Fez, your project can be trully SoLoMo or even MoLoSo[https://www.youtube.com/watch?v=J-GVd_HLlps].
 
-I wear a Fez[http: // 24.media.tumblr.com / 00abbb3e6cc426505f792bdf04e16aab/tumblr_msx7vocr0x1suq2yao1_500.gif]
+http://24.media.tumblr.com/00abbb3e6cc426505f792bdf04e16aab/tumblr_msx7vocr0x1suq2yao1_500.gif
 
 == Instalation
 Add this pluging to development group in your Gemfile
-  
   gem 'fez', git: 'https://github.com/brytannia/fez.git'
 
 Don't forget to run 
-
   bundle install
 
-And you're ready to use Fez.
+When gem is installed, run
+  rails g fez_init
+to add fez table to database
+
+== Usage
+Generate new Fez task with
+  rails g fez 'task_name'
+  
+New task will be added to +lib/tasks/fez+. Add source code and run
+  rake fez:sweep
+Run this command each time after migrating your database.
