@@ -1,5 +1,4 @@
 module Fez
-  class Sweep
-
+  class Sweep  < ActiveRecord::Base
   end
 end

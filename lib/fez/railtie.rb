@@ -1,5 +1,6 @@
 # require 'fez'
 require 'rails'
+require 'fez/models/sweep'
 
 module Fez
   class Railtie < Rails::Railtie
