@@ -109,6 +109,7 @@ PLATFORMS
 
 DEPENDENCIES
   fez!
+  rake
   sqlite3
 
 BUNDLED WITH

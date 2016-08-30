@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class FezTest < ActiveSupport::TestCase
-  test "module" do
+  test 'module' do
     assert_kind_of Module, Fez
   end
 
