@@ -26,3 +26,6 @@ Generate new Fez task with
 New task will be added to +lib/tasks/fez+. Add source code and run
   rake fez:sweep
 Run this command each time after migrating your database.
+
+== System
+commit b
