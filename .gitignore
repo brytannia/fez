@@ -9,3 +9,6 @@ test/dummy/.sass-cache
 
 .idea
 .idea/vcs.xml
+
+.ruby-gemfile
+.ruby-version

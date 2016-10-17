@@ -18,6 +18,7 @@ module Fez
         "fez:#{file}"
       end
     end
+
   end
 end
 
