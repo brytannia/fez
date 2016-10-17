@@ -28,4 +28,4 @@ New task will be added to +lib/tasks/fez+. Add source code and run
 Run this command each time after migrating your database.
 
 ==System
-hey you
+c
